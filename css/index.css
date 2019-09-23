@@ -145,6 +145,7 @@ nav {
 }
 .anchors {
   margin-left: 10px;
+  text-decoration: none;
 }
 .header-img {
   width: 20px;

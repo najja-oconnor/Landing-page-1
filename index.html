@@ -1,5 +1,6 @@
 <head>
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>Wanderlust</title>
 </head>
 
 <body>
@@ -11,17 +12,23 @@
                 <a class="anchors" href="#">Mission</a>
                 <a class="anchors" href="#">FAQ</a>
                 <a class="sign-in" href="#">Sign In</a>
-                <a class="sign-up" href="#">Sign Up</a>
+                <div class="sign-up-container">
+                    <a class="sign-up" href="#">Sign Up</a>
+                </div>
             </ul>
         </nav>
         <section class="welcome-section">
-            <h1 class="column-1">Build Your Resume and Make Some Dough At The Same Time</h1>
+            <h1 class="column-1">Build Your Resume and Make Some Dough At The Same Time.</h1>
             <img src="assets/Image 1.png" class="image-1">
-
         </section>
-        <div class="modal-video-button-container">
-            <div class="video-button">
-            </div>
+        <!--Modal Button-->
+        <div class="modal" id="mymodal">
+            <button  id="myBtn" class="watch-this">Watch This</button>
+        </div>
+        <!--Modal Content-->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Some text in the Modal..</p>
         </div>
         <div class="feature-header">
             <h1>Features</h1>
@@ -60,11 +67,20 @@
             <h1 class="faq-heading">FAQ</h1>
             <div class="part-1">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua ?</p>
+                    incididunt ut labore et dolore magna aliqua ?</p>
             </div>
             <div class="part-2">
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit, sed do eiusmod tempor.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor.</p>
+            </div>
+            <div class="part-3">
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum?
+                </p>
+            </div>
+            <div class="part-4">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor.</p>
             </div>
         </div>
     </div>

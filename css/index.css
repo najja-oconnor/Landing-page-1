@@ -133,9 +133,13 @@ table {
   font-display: swap;
   src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
 }
+p {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 h1 {
-  font: 'Lato';
-  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 66px;
 }
 h2 {
   font: 'Lato';
@@ -143,14 +147,75 @@ h2 {
 nav {
   display: flex;
 }
-.anchors {
-  margin-left: 10px;
+.nav-flex-container {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+a {
   text-decoration: none;
+  margin-left: 70px;
+  margin-right: 40px;
+  color: grey;
+}
+a:hover {
+  color: black;
+}
+.sign-in {
+  margin-left: 360px;
+  text-decoration: none;
+  color: grey;
+}
+.sign-up {
+  text-decoration: none;
+  color: grey;
+  border-radius: 5px;
+  border-color: #6363ED;
+  border: 1px solid;
+  border: 10px;
 }
 .header-img {
   width: 20px;
   height: 20px;
 }
 .welcome-section {
-  background-color: salmon;
+  display: flex;
+  margin-bottom: 300px;
+  margin-top: 200px;
+  display: table;
+  clear: both;
+}
+.column-1 {
+  float: left;
+  width: 50%;
+}
+.welcome-section h1 {
+  color: #8DA5F7;
+  opacity: 0.8;
+  font-size: 60px;
+  margin-left: 350px;
+  line-height: 60px;
+}
+.image-1 {
+  margin: auto;
+  width: 1000px;
+  position: relative;
+  margin-left: 170px;
+  margin-top: 100px;
+}
+.features {
+  display: flex;
+  background-color: #AFDDFF;
+  opacity: 0.8;
+}
+.features a {
+  color: grey;
+}
+.features p {
+  color: grey;
+  margin: 70px;
+}
+.mountains {
+  height: 432;
+  width: 432;
 }

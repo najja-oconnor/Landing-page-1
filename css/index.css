@@ -224,6 +224,21 @@ a:hover {
   padding-top: 200px;
   padding-bottom: 200px;
 }
+.feature-section {
+  width: 800px;
+}
+.sign-up-button-container {
+  text-align: center;
+}
+.sign-up-button {
+  width: 100px;
+  height: 30px;
+  border: 1px black;
+  background-color: #8DA5F7;
+  text-align: center;
+  padding-top: 10px;
+  margin-left: 40%;
+}
 .features a {
   color: grey;
 }
@@ -281,4 +296,7 @@ a:hover {
 .faq-heading {
   text-align: center;
   padding-bottom: 100px;
+}
+.part-1 {
+  margin-bottom: 50px;
 }

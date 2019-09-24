@@ -158,9 +158,6 @@ a {
   margin-right: 40px;
   color: grey;
 }
-a:hover {
-  color: black;
-}
 .sign-in {
   margin-left: 360px;
   text-decoration: none;
@@ -218,4 +215,7 @@ a:hover {
 .mountains {
   height: 432;
   width: 432;
+}
+.pricing {
+  display: flex;
 }

@@ -155,6 +155,7 @@ nav {
   margin-bottom: 50px;
   padding: 0px;
   height: 40px;
+  align-items: baseline;
 }
 a {
   text-decoration: none;
@@ -174,14 +175,17 @@ a:hover {
 .sign-up {
   text-decoration: none;
   color: white;
+  background-color: #6363ED;
   border-radius: 5px;
+  padding-top: 3px;
+  width: 70px;
 }
 .sign-up-container {
-  background-color: #6363ED;
   width: 190px;
   border-radius: 5px;
   height: 18px;
   padding: 2px;
+  opacity: 0.8;
 }
 .header-img {
   width: 20px;
@@ -213,7 +217,7 @@ a:hover {
   margin-left: 50%;
   padding-top: 40px;
 }
-.watch-this {
+.modal-button {
   background: #87A4E3;
   width: 130px;
   height: 45px;
@@ -293,6 +297,8 @@ a:hover {
   text-align: center;
   padding-top: 10px;
   margin-left: 40%;
+  color: white;
+  border-radius: 5px;
 }
 .features a {
   color: grey;

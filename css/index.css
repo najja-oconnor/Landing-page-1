@@ -199,8 +199,9 @@ a:hover {
   clear: both;
 }
 .column-1 {
-  float: left;
-  width: 50%;
+  margin-left: 300px;
+  width: 60%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .column-1:hover {
   color: grey;

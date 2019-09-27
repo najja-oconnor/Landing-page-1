@@ -334,37 +334,63 @@ a:hover {
   display: flex;
   opacity: 0.8;
   background-color: #424242;
-  padding-left: 80px;
-  padding-top: 150px;
-  flex-direction: column;
-  height: 900px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 90%;
+  align-items: baseline;
+  padding-top: 10%;
+  flex-wrap: wrap;
 }
-.faq-heading {
-  padding-bottom: 100px;
-  margin-left: 40%;
+.faq-container {
+  display: flex;
+  justify-content: center;
+  background-color: #424242;
+  opacity: 0.8;
+  padding-top: 10%;
+  color: white;
 }
-.part-1 {
-  margin-bottom: 50px;
-  padding-left: 100px;
-  padding-right: 100px;
-}
-.part-2 {
-  margin-bottom: 50px;
+.faq-container:hover {
   color: grey;
-  padding-left: 100px;
-  padding-right: 100px;
 }
-.part-3 {
-  margin-bottom: 50px;
-  padding-left: 100px;
-  padding-right: 100px;
+.najja {
+  border-radius: 250px;
+  border: 10px solid black;
+  height: 250px;
+  width: 250px;
 }
-.part-4 {
-  color: grey;
-  padding-left: 100px;
-  padding-right: 100px;
+.baringer {
+  border-radius: 250px;
+  border: 10px solid black;
+  height: 250px;
+  width: 250px;
 }
 .tim {
   border-radius: 250px;
   border: 10px solid black;
+  height: 250px;
+  width: 250px;
+}
+.griffin {
+  border-radius: 250px;
+  border: 10px solid black;
+  height: 250px;
+  width: 250px;
+}
+.anthony {
+  border-radius: 250px;
+  border: 10px solid black;
+  height: 250px;
+  width: 250px;
+}
+.carl {
+  border-radius: 250px;
+  border: 10px solid black;
+  height: 250px;
+  width: 250px;
+}
+.raul {
+  border-radius: 250px;
+  border: 10px solid black;
+  height: 250px;
+  width: 250px;
 }

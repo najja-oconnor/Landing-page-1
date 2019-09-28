@@ -264,6 +264,7 @@ a:hover {
 }
 
 
+
 .image-1 {
   width: 100%;
   margin-top: 100px;
@@ -410,6 +411,9 @@ a:hover {
 .faq-container:hover {
   color: grey;
 }
+
+
+
 .najja {
   border-radius: 250px;
   border: 10px solid black;
@@ -451,4 +455,9 @@ a:hover {
   border: 10px solid black;
   height: 250px;
   width: 250px;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
 }
